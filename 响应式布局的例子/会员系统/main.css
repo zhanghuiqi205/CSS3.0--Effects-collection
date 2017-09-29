@@ -1,0 +1,203 @@
+
+/* 头部样式 */
+header{
+    height: 10rem;
+    width:100%;
+    background:url('images/header.png') no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.header-left{
+    width:5rem;
+    height:5rem;
+    margin: auto;  
+    position: absolute;  
+    top: 0; 
+    left: -70%;
+     bottom: 0; 
+     right: 0;
+     border-radius: 100%;
+     background: url('images/icon.png') no-repeat;
+     background-size: cover;
+}
+.header-right{
+    width: 12rem;
+    margin: auto;
+    position: absolute;
+    top: 34%;
+    left: 8%;
+    right: 0;
+    color: #ffffff;
+}
+.header-right>div hr{
+    margin: 3% 0;
+    background: #66ccff;
+}
+.header-fixd{
+    position: absolute;
+    width: 1.5rem;
+    height: 1.5rem;
+    background: url('images/fixd.png')no-repeat;
+    background-size: cover;
+    right:3%;
+    top:6%;
+}
+/* 导航区域 */
+.nav{
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #eeefff;
+    margin-bottom:2rem;
+    display: flex;
+    background: #ffffff
+}
+.nav p{
+    flex: 1;
+    height: 100%;
+    text-align: center;
+    line-height:2rem;
+    display: inline-block;
+}
+.nav p span{display: block;text-align: center;}
+.nav p a{display: block;text-align: center;}
+.nav p:nth-child(2) span:first-child{
+    background:#ff3333;
+    color: #ffffff;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 0.4rem auto;
+    line-height: 20px;
+}
+
+/* 内容区域 */
+.content{
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    background: #ffffff;
+}
+
+.content p{
+    flex: 22%;
+    height: 50px;
+    text-align: center;
+    padding: 2% 1%;
+    border-bottom: 1px solid #e7e7e7;
+    border-right: 1px solid #e7e7e7;
+}
+.content p:nth-child(4n){
+    border-right:none;
+}
+.content p span{
+    display: block;
+    text-align: center;
+    padding: 1px 0;
+}
+.content p span img{
+    width: 1.2rem;
+    height: 1.2rem;
+}
+/* 底部区域 */
+footer{
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+    background: #ffffff;
+    padding: 0.5rem 0;
+    color:#666666;
+}
+footer p{
+    flex: 1;
+    height:auto;
+    text-align: center;
+    padding: 0% 4%;
+}
+footer p span{
+    display: block;
+    text-align: center;
+    padding: 1px 0;
+}
+footer p span i{
+    font-size:1.4rem !important;
+}
+
+/* 媒体查询 */
+@media screen and (min-width:760px){
+    .header-left{
+        width:5rem;
+        height:5rem;
+        margin: auto;  
+        position: absolute;  
+        top: 0; 
+        left: -70%;
+        background-size: cover;
+    }
+    .header-right{
+        width: 27rem;
+        margin: auto;
+        position: absolute;
+        left: 4%;
+        right: 0;
+    }
+    .header-right>div hr{
+        margin: 1% 0
+    }
+    .header-fixd{
+        right:3%;
+        top:6%;
+    }
+}
+
+@media screen and (max-width:320px){
+    body{font-size:12px;}
+    header{height:8rem;}
+    .header-left{
+        width: 4rem;
+        height: 4rem;
+        top: 0;
+        left: -62%;
+    }
+    .header-right{
+        width: 10rem;
+        top: 37%;
+        left:18%;
+    }
+    .header-right>div hr{
+        margin: 1% 0
+    }
+    .header-fixd{
+        right:3%;
+        top:6%;
+    }
+}
+@media screen and (min-width:1000px){
+    body{font-size:16px;}
+    .header-left{
+        width: 5rem;
+        height: 5rem;
+        top: 0;
+        left: -75%;
+    }
+    .header-right{
+        width: 49%;
+        top:30%;
+        left: -14%;
+    }
+    .header-right>div hr{
+        margin:2% 0
+    }
+    .header-fixd{
+        right:3%;
+        top:6%;
+    }
+}
+
+
+
+
+
+

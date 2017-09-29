@@ -1,0 +1,411 @@
+.share-back {
+    position: relative;
+}
+
+.share-back>img {
+    width: 100%;
+    height: 100%;
+}
+
+.share-back>.logo_top {
+    position: absolute;
+    top: 1%;
+    left: 4%;
+}
+
+.share-back>.logo_top>img {
+    width: 2rem;
+    height: 2rem;
+    vertical-align: middle;
+}
+.share-back>.logo_top>p{
+    display:inline-block;
+    font-size:12px;
+    vertical-align: middle;
+    color: #ffffff;
+}
+.share-back>p {
+    position: absolute;
+}
+
+.share-back>p:nth-child(3) {
+    top: 37%;
+    font-size: 8px;
+    text-align: center;
+    left: 15%;
+    color: #ffffff;
+}
+
+.share-back>p:nth-child(3) b {
+    background: #ffff00;
+    color: #6666cc;
+    padding: 0 0.2rem;
+    border-radius: 10px;
+}
+
+.share-back>p:nth-child(4) {
+    top: 41%;
+    text-align: center;
+    left: 16%;
+    color: #ffff00;
+}
+
+.share-back>div {
+    position: absolute;
+}
+
+.first-top {
+    top: 43%;
+    color: #ffffff;
+    padding: 1rem;
+}
+
+.first-top>span,
+.second-top>span,
+.three-top>span {
+    background: #ffff00;
+    color: #6666cc;
+    padding: 0 0.5rem;
+    border-radius: 20px;
+}
+
+.second-top {
+    top: 54%;
+    color: #ffffff;
+    padding: 1rem;
+}
+
+.three-top {
+    top: 61%;
+    color: #ffffff;
+    padding: 1rem;
+}
+
+.four-top {
+    top: 68.8%;
+    text-align: center;
+    padding: 0 4.5rem;
+    font-size: 14px;
+    color: #ffff00;
+}
+
+.two-dimension {
+    position: absolute;
+    top: 79.2%;
+    left: 36.5%;
+}
+
+.two-dimension>img {
+    width: 100%;
+    height: auto;
+}
+
+.five-top {
+    top: 91%;
+    text-align: center;
+    font-size: 14px;
+    left: 25.5%;
+}
+
+.footer {
+    position: absolute;
+    top: 96%;
+    font-size: 12px;
+    text-align: center;
+    left: 11%;
+    color: #ffffff;
+}
+
+
+@media (min-width:760px) and (max-width:10240px) {
+    .footer {
+        font-size: 1rem;
+        left: 20%;
+    }
+    .share-back>img {
+        width: 100%;
+        height: 100%;
+    }
+    .share-back>.logo_top {
+        position: absolute;
+        top: 1%;
+        left: 4%;
+    }
+    .share-back>.logo_top>img {
+        width: 4rem;
+        height: 4rem;
+        vertical-align: middle;
+    }
+    .share-back>.logo_top>p{
+        display:inline-block;
+        font-size:1.5rem;
+        vertical-align: middle;
+    }
+    .share-back>p {
+        position: absolute;
+    }
+    .share-back>p:nth-child(3) {
+        top: 37%;
+        font-size:1.7rem;
+        text-align: center;
+        left: 12%;
+        color: #ffffff;
+    }
+    .share-back>p:nth-child(3) b {
+        background: #ffff00;
+        color: #6666cc;
+        padding: 0 1rem;
+        border-radius: 30px;
+    }
+    .share-back>p:nth-child(4) {
+        left: 16%;
+        font-size: 2rem;
+    }
+    .first-top {
+        top: 45%;
+        font-size: 2rem;
+    }
+    .first-top>span,
+    .second-top>span,
+    .three-top>span {
+        border-radius: 20px;
+        padding: 0 1rem;
+    }
+    .second-top {
+        padding: 1rem;
+        font-size: 2rem;
+        top: 54.5%;
+    }
+    .three-top {
+
+        padding: 1rem;
+        font-size: 2rem;
+    }
+    .four-top {
+        font-size: 2rem;
+        padding: 0;
+        top:68.8%;
+        left: 16%;
+    }
+    .two-dimension {
+        position: absolute;
+        top: 79.5%;
+        left: 37.5%;
+        width: 14rem;
+    }
+    .two-dimension>img {
+        width: 100%;
+        height: auto;
+    }
+    .five-top {
+        top: 91%;
+        text-align: center;
+        font-size: 2.0rem;
+        left: 20%;
+    }
+    .footer {
+        position: absolute;
+        top: 96%;
+        font-size: 1.5rem;
+        text-align: center;
+        left: 10%;
+    }
+}
+
+@media screen and (max-width:360px) {
+    .footer {
+        left: 6%;
+        top: 96%;
+        font-size: 0.1rem;
+        text-align: center;
+    }
+    .share-back>img {
+        width: 100%;
+        height: 100%;
+    }
+    .share-back>.logo_top {
+        position: absolute;
+        top: 1%;
+        left: 4%;
+    }
+    .share-back>.logo_top>img {
+        width: 1.5rem;
+        height: 1.5rem;
+        vertical-align: middle;
+    }
+    .share-back>.logo_top>p{
+        display:inline-block;
+        font-size:0.7rem;
+        vertical-align: middle;
+    }
+    .share-back>p {
+        position: absolute;
+    }
+    .share-back>p:nth-child(3) {
+        top: 37%;
+        font-size:0.5rem;
+        text-align: center;
+        left: 6%;
+        color: #ffffff;
+    }
+    .share-back>p:nth-child(3) b {
+        background: #ffff00;
+        color: #6666cc;
+        padding: 0 0.2rem;
+        border-radius: 10px;
+    }
+    .share-back>p:nth-child(4) {
+        left: 16%;
+        top:42%;
+        font-size: 0.5rem;
+    }
+    .first-top {
+        top: 45%;
+        font-size:0.5rem;
+        padding:0.5rem;
+    }
+    .first-top>span,
+    .second-top>span,
+    .three-top>span {
+        border-radius: 20px;
+    }
+    .second-top {
+        padding:0.5rem;
+        font-size: 0.5rem;
+    }
+    .three-top {
+
+        padding: 0.5rem;
+        font-size: 0.5rem;
+    }
+    .four-top {
+        font-size:0.5rem;
+        padding: 0;
+        left: 22%;
+    }
+    .two-dimension {
+        position: absolute;
+        top: 79.5%;
+        left: 37%;
+        width: 7rem;
+    }
+    .two-dimension>img {
+        width: 100%;
+        height: auto;
+    }
+    .five-top {
+        top: 91%;
+        text-align: center;
+        font-size:0.5rem;
+        left: 23%;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .footer {
+        font-size:0.5rem;
+        left: 20%;
+    }
+    .share-back>img {
+        width: 100%;
+        height: 100%;
+    }
+    .share-back>.logo_top {
+        position: absolute;
+        top: 1%;
+        left: 4%;
+    }
+    .share-back>.logo_top>img {
+        width: 6rem;
+        height: 6rem;
+        vertical-align: middle;
+    }
+    .share-back>.logo_top>p{
+        display:inline-block;
+        font-size: 2rem;
+        vertical-align: middle;
+    }
+    .share-back>p {
+        position: absolute;
+    }
+    .share-back>p:nth-child(3) {
+        top: 37%;
+        font-size: 2.3rem;
+        text-align: center;
+        left: 6%;
+        color: #ffffff;
+    }
+    .share-back>p:nth-child(3) b {
+        background: #ffff00;
+        color: #6666cc;
+        padding: 0 1rem;
+        border-radius: 30px;
+    }
+    .share-back>p:nth-child(4) {
+        left: 16%;
+        top:42%;
+        font-size: 2.5rem;
+    }
+    .first-top {
+        top: 45%;
+        font-size: 2.5rem;
+        padding: 1.5rem;
+    }
+    .first-top>span,
+    .second-top>span,
+    .three-top>span {
+        border-radius: 46px;
+    }
+    .second-top {
+        padding: 1.5rem;
+        font-size: 2.5rem;
+    }
+    .three-top {
+
+padding: 1.5rem;
+
+font-size: 2.2rem;
+}
+    .four-top {
+        font-size: 2.5rem;
+        padding: 0;
+        left: 16%;
+    }
+    .two-dimension {
+        position: absolute;
+        top: 79.5%;
+        left: 36.5%;
+        width: 20rem;
+    }
+    .two-dimension>img {
+        width: 100%;
+        height: auto;
+    }
+    .five-top {
+        top: 91%;
+        text-align: center;
+        font-size: 2.5rem;
+        left: 23%;
+    }
+    .footer {
+        position: absolute;
+        top: 96%;
+        font-size: 2.2rem;
+        text-align: center;
+        left: 5%;
+    }
+}
+@media (min-width:360px) and (max-width:376px){
+    .two-dimension>img{
+        width: 93%;
+    }
+    .four-top{
+        top: 68.5%;
+    }
+}
+
+@media screen and (max-width: 322px){
+    .two-dimension {
+        width: 6rem;
+    }
+}
