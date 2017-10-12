@@ -1,0 +1,26 @@
+html{
+	font-size: 100px;
+}
+.share_content {
+	position: relative;
+	margin: auto;
+	max-width: 720px;
+}
+.share_content>#header {
+	font-size: .3rem;
+}
+
+.share_content>img {
+	width: 100%;
+	display: block;
+}
+
+.twoDimension_code {
+	position: absolute;
+	left: 2.74rem;
+	bottom: 2.4rem;
+}
+.twoDimension_code>img {
+	display: block;
+	width: 2rem;
+}

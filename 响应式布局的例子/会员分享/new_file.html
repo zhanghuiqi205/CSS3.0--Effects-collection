@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="reset.css" />
+		<link rel="stylesheet" href="share.css" />
+	</head>
+
+	<body>
+		<div class="share_content">
+			<header id="header">
+				<h2>企业二维码</h2>
+				<a class="back" href="javascript:history.back(-1);"></a>
+			</header>
+			<img src="images/share.png" />
+			<div class="twoDimension_code">
+				<img src="images/icon2.png" />
+			</div>
+		</div>
+	</body>
+	<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		function setHtmlFontSize(initWidth) {
+			adjust();
+			$(window).resize(function() {
+				adjust();
+			})
+
+			function adjust() {
+				var windowWidth = $(window).width();
+				var fontSize = windowWidth > initWidth ? 100 : (100 * windowWidth) / initWidth;
+				$('html').css('font-size', fontSize + 'px');
+			}
+		}
+		setHtmlFontSize(720);
+	</script>
+
+</html>
