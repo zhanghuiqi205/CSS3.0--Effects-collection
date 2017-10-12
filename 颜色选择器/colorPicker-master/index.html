@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>colorPicker</title>
+    <link rel="stylesheet" href="./css/colorPicker.css">
+    <script type="text/javascript" src="./js/jquery.js"></script>
+    <script type="text/javascript" src="./js/colorPicker.js"></script>
+    <script type="text/javascript" src="./js/fai.js"></script>
+    <style>
+        #colorBox {
+            width: 35px;
+            height: 35px;
+            border: 1px solid #ccc;
+            cursor: pointer;
+            background-size: cover;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="colorBox" class="J_color_bar J_color_bar_icon"></div>
+    <script>
+        function showColorPannel($baseDom, $targetDom, top, type) {
+            var noAlpha = true;
+            var options = {
+                "target": $targetDom,
+                "baseattr": "background-color",
+                "targetattr": "background-color",
+                "advance": true,
+                "showInTop": true,
+                "top": -15,
+                "left": 15,
+                "_top": 0,
+                "_left": 2,
+                "inputHexStatus": inputHexStatus,
+                "onchange": onChange,
+                "noAlpha": noAlpha
+            };
+            $($baseDom).colorPickerAlp(options);
+
+            function refreshColor(iconColor) {
+                if (iconColor == "transparent" && type != 0) {
+                    alert("颜色不能设置透明")
+                    return;
+                }
+                $("#colorBox").css("background",iconColor);
+            }
+            function inputHexStatus(state, color) {
+                refreshColor(color);
+            }
+            function onChange(color) {
+                refreshColor(color);
+            }
+        }
+
+        var $colorPickerWrapDom = $('.J_color_bar');
+        var $colorPickerDom = $('.J_color_bar_icon');
+
+        $colorPickerWrapDom.off('click.colorPicker').on('click.colorPicker', function (e) {
+            showColorPannel($colorPickerWrapDom, $colorPickerDom);
+            e.stopPropagation();
+            return false;
+        });
+    </script>
+</body>
+
+</html>

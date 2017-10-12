@@ -1,0 +1,405 @@
+ .fk-colorPickerAlp {
+ 	position: absolute;
+ 	display: none;
+ 	top: 0;
+ 	left: 0;
+ 	font-family: 'microsoft yahei';
+ 	padding: 10px;
+ 	border-radius: 3px;
+ 	background-color: #fff;
+ 	background-color: rgba(255, 255, 255, 1);
+ 	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.18);
+ 	height: 211px !important;
+ 	width: 245px !important;
+ }
+ 
+ .fk-colorPicker-clearcolor .f-original-color-bg {
+ 	display: inline-block;
+ 	height: 25px;
+ 	width: 25px;
+ 	margin: 12px 15px 15px 0;
+ 	background: transparent url(../image/colorpickerAlp/clear1.png) repeat
+ }
+ 
+ .fk-colorPicker-clearcolor .f-original-color-bg .f-original-color {
+ 	display: inline-block;
+ 	height: 25px;
+ 	width: 25px;
+ 	background-color: transparent
+ }
+ 
+ .fk-colorPicker-clearcolor .original-title {
+ 	cursor: default;
+ 	font-size: 12px;
+ 	height: 24px;
+ 	line-height: 24px;
+ 	text-align: left;
+ 	padding: 0 5px;
+ 	color: #555
+ }
+ 
+ .fk-colorPicker-colorcol {
+ 	height: 150px;
+ 	width: 225px
+ }
+ 
+ .fk-colorPickerAlp .col {
+ 	cursor: default;
+ 	float: left;
+ 	width: 25px;
+ 	height: auto;
+ 	margin-right: 0
+ }
+ 
+ .fk-colorPickerAlp .col .col-color {
+ 	cursor: default;
+ 	display: block;
+ 	width: 25px;
+ 	height: 25px
+ }
+ 
+ .fk-colorPickerAlp .col .col-color div {
+ 	cursor: default;
+ 	position: relative;
+ 	width: 25px;
+ 	height: 25px;
+ 	z-index: 298
+ }
+ 
+ .fk-colorPickerAlp .col .col-color div:hover {
+ 	width: 31px;
+ 	height: 31px;
+ 	left: -3px;
+ 	top: -3px;
+ 	z-index: 299
+ }
+ 
+ .fk-colorPickerAlp .col .current-col-color div {
+ 	width: 31px;
+ 	height: 31px;
+ 	left: -3px;
+ 	top: -3px;
+ 	z-index: 299
+ }
+ 
+ .fk-colorPickerAlp .col .col-color .col-color-last:hover {
+ 	width: 25px;
+ 	height: 25px;
+ 	left: 0;
+ 	top: 0
+ }
+ 
+.f-coloradvance-btn {
+ 	display: block;
+ 	width: 25px;
+ 	height: 25px;
+ 	background: url(../img/colorAdvance.jpg)
+ }
+ 
+ .fk-colorPicker-transparentIco {
+ 	width: 25px;
+ 	height: 25px;
+ 	position: relative;
+ 	background-color: transparent
+ }
+ 
+ .fk-colorPicker-transparentIco:before {
+ 	position: absolute;
+ 	top: 0;
+ 	right: 0;
+ 	left: 0;
+ 	bottom: 0;
+ 	border-bottom: 14px solid red;
+ 	border-left: 14px solid transparent;
+ 	content: ""
+ }
+ 
+ .fk-colorPicker-transparentIco:after {
+ 	position: absolute;
+ 	left: 1px;
+ 	right: 0;
+ 	top: 1px;
+ 	bottom: 0;
+ 	border-bottom: 13px solid white;
+ 	border-left: 13px solid transparent;
+ 	content: ""
+ }
+ 
+ .fk-colorPicker-recent {
+ 	margin-top: 15px
+ }
+ 
+ .fk-colorPicker-recent .col-color {
+ 	cursor: default;
+ 	display: inline-block;
+ 	width: 25px;
+ 	height: 25px
+ }
+ 
+ .fk-colorPicker-recent .col-color div {
+ 	cursor: default;
+ 	position: relative;
+ 	width: 25px;
+ 	height: 25px;
+ 	z-index: 298
+ }
+ 
+ .fk-colorPicker-recent .col-color div:hover {
+ 	width: 31px;
+ 	height: 31px;
+ 	left: -3px;
+ 	top: -3px;
+ 	z-index: 299
+ }
+ 
+ .fk-colorPicker-recent .current-col-color div {
+ 	width: 31px;
+ 	height: 31px;
+ 	left: -3px;
+ 	top: -3px;
+ 	z-index: 299
+ }
+ 
+ .fk-sp-alpha {
+ 	display: inline-block;
+ 	position: relative;
+ 	margin-bottom: 8px;
+ 	width: 180px;
+ 	height: 10px;
+ 	border-radius: 15px;
+ 	background: transparent url(/image/colorpickerAlp/clear1.png?v=201607251739) repeat
+ }
+ 
+ .fk-sp-alpha-inner {
+ 	display: block;
+ 	position: absolute;
+ 	top: 0;
+ 	left: 0;
+ 	bottom: 0;
+ 	right: 0;
+ 	border-radius: 15px
+ }
+ 
+ .fk-sp-alpha-handle {
+ 	position: absolute;
+ 	top: -1px;
+ 	width: 10px;
+ 	height: 10px;
+ 	left: 50%;
+ 	cursor: pointer;
+ 	border: 1px solid #dadada;
+ 	background: #fff;
+ 	border-radius: 10px
+ }
+ 
+ .fk-colorPickerAdven {
+ 	width: 200px;
+ 	height: 265px;
+ 	overflow: hidden;
+ 	position: absolute;
+ 	display: none;
+ 	z-index: 9599;
+ 	padding: 8px;
+ 	border-radius: 3px;
+ 	background-color: #fff;
+ 	background-color: rgba(255, 255, 255, 0.9);
+ 	box-shadow: 0 2px 6px rgba(0, 0, 0, 0.18)
+ }
+ 
+ .fk-colorpicker-color {
+ 	width: 182px;
+ 	height: 182px;
+ 	border-radius: 182px;
+ 	left: 9px;
+ 	top: 5px;
+ 	position: absolute;
+ 	overflow: hidden;
+ 	cursor: crosshair
+ }
+ 
+ .fk-colorpicker-color div {
+ 	width: 182px;
+ 	height: 182px;
+ 	background: url(../img/color.png) no-repeat center center
+ }
+ 
+ .fk-colorpicker-color div div {
+ 	position: absolute;
+ 	width: 10px;
+ 	height: 10px;
+ 	left: 100px;
+ 	top: 100px;
+ 	margin: -7px 0 0 -7px;
+ 	border: 1px solid white;
+ 	border-radius: 10px;
+ 	cursor: move;
+ 	background: transparent
+ }
+ 
+ .fk-colorpicker-brt {
+ 	position: absolute;
+ 	top: 196px;
+ 	left: 12px;
+ 	width: 176px;
+ 	height: 10px;
+ 	border-radius: 15px;
+ 	background-color: #fff;
+ 	background-image: linear-gradient(to right, transparent, #000)
+ }
+ 
+ .fk-colorpicker-brt div {
+ 	position: absolute;
+ 	width: 8px;
+ 	height: 8px;
+ 	left: 100px;
+ 	border-radius: 8px;
+ 	top: 0;
+ 	margin: 0 0 0 -9px;
+ 	cursor: pointer;
+ 	border: 1px solid white;
+ 	background: transparent
+ }
+ 
+ .colorpicker_new_color_title {
+ 	position: absolute;
+ 	color: #191919;
+ 	top: 15px;
+ 	left: 260px
+ }
+ 
+ .fk-colorpicker-current-color_title {
+ 	position: absolute;
+ 	color: #191919;
+ 	top: 15px;
+ 	left: 370px
+ }
+ 
+ .fk-colorpicker-new-color {
+ 	position: absolute;
+ 	border: 1px solid #c8c8c8;
+ 	width: 110px;
+ 	height: 30px;
+ 	left: 214px;
+ 	top: 38px;
+ 	overflow: hidden
+ }
+ 
+ .fk-colorpicker-current-color {
+ 	position: absolute;
+ 	border: 1px solid #c8c8c8;
+ 	width: 110px;
+ 	height: 30px;
+ 	left: 325px;
+ 	top: 38px;
+ 	overflow: hidden
+ }
+ 
+ .fk-colorpicker-hex {
+ 	position: absolute;
+ 	z-index: 3000;
+ 	width: auto;
+ 	bottom: 15px;
+ 	left: 19px;
+ 	font-size: 14px;
+ 	opacity: 1;
+ 	height: 30px;
+ 	line-height: 30px;
+ 	color: #a2a2a2;
+ 	font-family: "微软雅黑"
+ }
+ 
+ .fk-colorpicker-hex label {
+ 	display: inline-block;
+ 	height: 30px;
+ 	line-height: 30px
+ }
+ 
+ .fk-colorpicker-hex input {
+ 	width: 75px;
+ 	position: relative;
+ 	margin-left: 8px;
+ 	height: 35px;
+ 	line-height: 35px;
+ 	text-indent: 8px;
+ 	top: 0;
+ 	right: 0;
+ 	font-size: 15px;
+ 	border: 1px solid #e6e5ea;
+ 	background-color: #fff;
+ 	color: #3f4652
+ }
+ 
+ .colorpicker_field {
+ 	position: absolute;
+ 	background-color: #fff;
+ 	height: 22px;
+ 	width: 46px;
+ 	background-position: top;
+ 	border: 1px solid #c8c8c8;
+ 	border-top: 1px solid #c4c4c4;
+ 	box-shadow: inset 0 1px 1px #bcbcbc
+ }
+ 
+ .colorpicker_field span {
+ 	position: absolute;
+ 	background-color: #eee;
+ 	top: 1px;
+ 	right: 0;
+ 	width: 16px;
+ 	height: 21px;
+ 	overflow: hidden
+ }
+ 
+ .fk-colorPicker-colorcol .f-original-clear {
+ 	width: 25px;
+ 	height: 25px;
+ 	position: relative;
+ 	background-color: transparent
+ }
+ 
+ .fk-colorPicker-colorcol .f-original-clear:before {
+ 	position: absolute;
+ 	top: 0;
+ 	right: 0;
+ 	left: 0;
+ 	bottom: 0;
+ 	border-bottom: 25px solid red;
+ 	border-left: 25px solid white;
+ 	content: ""
+ }
+ 
+ .fk-colorPicker-colorcol .f-original-clear:after {
+ 	position: absolute;
+ 	left: 1px;
+ 	right: 0;
+ 	top: 1px;
+ 	bottom: 0;
+ 	border-bottom: 24px solid white;
+ 	border-left: 24px solid transparent;
+ 	content: ""
+ }
+ .J_colorpicker_back {
+	position: absolute;
+    left: 12px;
+    top: 10px;
+    display: block;
+    width: 8px;
+    height: 14px;
+    background: 0;
+    cursor: pointer;
+ }
+ .fk-colorpicker-back:before {
+    content: "";
+    position: absolute;
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    border-right: 8px solid #333;
+}
+.fk-colorpicker-back:after {
+    content: "";
+    position: absolute;
+    left: 1px;
+    border-top: 7px solid transparent;
+    border-bottom: 7px solid transparent;
+    border-right: 8px solid #fff;
+}
