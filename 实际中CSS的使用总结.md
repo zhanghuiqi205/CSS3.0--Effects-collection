@@ -1,7 +1,7 @@
 - 1.定义多个class的目的在于：一般一个class抽取为公共样式，然后用另外一个class定义单独的样式。
 - 2.对于id和class，我们总结一下：对于页面关键结构，建议使用id。对于小地方，建议使用class。
 - 3.浏览器标题栏的小图标，想实现这个效果，我们只需要在head标签添加一个link标签即可。
-     1. ==<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">==
+     1. **<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">**
 - 4.对于img标签，我们一定要添加alt标签，以便于搜索引擎识别图片的内容，alt属性在搜索引擎优化中也很重要。
 - 5.label标签的for属性有两个作用：一是语义上绑定了label元素和表单元素。二是增强了鼠标可用性。
 - 6.如果图片作为HTML的一部分，并想被搜索引擎识别，则应该使用img标签。例如常见的各种图片列表，如果图片仅仅是修饰作用，并不想搜索引擎识别，则应该使用背景图片。
