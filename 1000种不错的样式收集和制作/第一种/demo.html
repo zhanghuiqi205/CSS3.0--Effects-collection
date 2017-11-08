@@ -5,10 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="main.css">
-    <title>CSS第一种</title>
+    <title>CSS第一种:图片放大</title>
 </head>
 <body>
-    
+    <a href="image/big.jpg" class="MagicZoom"><img src="image/small.jpg"/></a>
+    <div style="float: right;">
+        <p>A big window of 500x500 pixels.</p>
+        <a href="image/big.jpg" rel="zoom-width:500;zoom-height:500; zoom-position: left;" class="MagicZoom"><img src="image/small.jpg"/></a>
+    </div>
+    <div>
+        <p>A wide zoom window of 400x170 pixels.</p>
+        <!-- define Magic Zoom -->
+        <a href="image/big.jpg" rel="zoom-width:400;zoom-height:170;" class="MagicZoom"><img src="image/small.jpg"/></a>
+    </div>
+    <div>
+        <p>Zoom window of 100% of the original (small) image.</p>
+        <a href="image/big.jpg" rel="zoom-width:100%;zoom-height:100%;" class="MagicZoom"><img src="image/small.jpg"/></a>
+    </div>
 </body>
 <script src="one.js"></script>
 </html>
