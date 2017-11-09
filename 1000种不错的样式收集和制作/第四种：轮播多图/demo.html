@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>CSS第四种:轮播多图</title>
+    <link href="https://cdn.bootcss.com/flexslider/2.6.4/flexslider.min.css" rel="stylesheet">
+    <style>
+        ul,
+        li {
+            list-style: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="flexslider" style="width:900px;margin:0 auto;">
+        <ul class="slides">
+            <li>
+                <img src="images/1.jpg" alt="" class="img-responsive" />
+            </li>
+            <li>
+                <img src="images/2.jpg" alt="" class="img-responsive" />
+            </li>
+            <li>
+                <img src="images/3.jpg" alt="" class="img-responsive" />
+            </li>
+            <li>
+                <img src="images/4.jpg" alt="" class="img-responsive" />
+            </li>
+        </ul>
+    </div>
+</body>
+<script src="https://cdn.bootcss.com/jquery/1.8.2/jquery.min.js"></script>
+<script src="https://cdn.bootcss.com/flexslider/2.6.4/jquery.flexslider-min.js"></script>
+<script>
+    $(window).load(function () {
+        $('.flexslider').flexslider({
+            animation: "slide",
+            controlNav: true,
+            pauseOnHover: true,
+            slideshowSpeed: 15000,
+            prevText: "",
+            nextText: ""
+        });
+    });
+</script>
+
+</html>
