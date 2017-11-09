@@ -1,0 +1,14 @@
+ul,li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.grid_8{
+    width: 620px;
+}
+.slides{
+    width: 594px;
+    height: 432px;
+    zoom: 1;
+}
