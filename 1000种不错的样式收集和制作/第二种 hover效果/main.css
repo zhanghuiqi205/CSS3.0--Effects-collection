@@ -1,0 +1,170 @@
+/* 重置一些样式 */
+a {
+  text-decoration: none;
+}
+/* demo1的例子开始的位置 */
+.demo1 {
+  display: block;
+  margin-left: 4%;
+  text-align: center;
+}
+.demo1 .rollover {
+  -o-transition-duration: 1s;
+  -moz-transition-duration: 1s;
+  -webkit-transition: -webkit-transform 1s;
+  background: url(image/puls.png) center center no-repeat
+    rgba(155, 89, 182, 0.7);
+  cursor: pointer;
+  height: 220px;
+  width: 221px;
+  position: absolute;
+  z-index: 10;
+  opacity: 0;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -o-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+.demo1 .rollover:hover {
+  opacity: 1;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+.demo1 img {
+  max-width: 100%;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -o-border-radius: 50%;
+  -moz-border-radius: 50%;
+}
+.demo1 h3 {
+  color: #9b59b6;
+  font-size: 1.2em;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+}
+/* demo2的例子开始 */
+.demo2 {
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  padding: 0.5em 0em;
+  width: 300px;
+}
+.demo2:hover {
+  background: #485460;
+  color: #fff;
+  border-radius: 5px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -o-border-radius: 3px;
+  margin-left: 1em;
+}
+.demo2 li {
+  list-style-image: url(image/icon_1.png);
+  margin: 0 15px 0px;
+  vertical-align: bottom;
+}
+.demo2 li a {
+  font-size: 0.85em;
+  line-height: 1.8em;
+  font-family: "Open Sans", sans-serif;
+  color: #5a5e68;
+  font-weight: 600;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+  padding: 0.6em 0em;
+}
+.demo2 li a:hover {
+  color: #fff;
+}
+/* demo3的例子 */
+.demo3 {
+  height: 10px;
+  margin: 10px 0;
+  position: relative;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  z-index: 0;
+  background-color: #ebebeb;
+}
+.demo3 > span {
+  display: block;
+  height: 10px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+  background-color: #B667BD;
+}
+.demo3 > span > span {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-image: -webkit-gradient(
+    linear,
+    0 0,
+    100% 100%,
+    color-stop(0.25, rgba(255, 255, 255, 0.2)),
+    color-stop(0.25, transparent),
+    color-stop(0.5, transparent),
+    color-stop(0.5, rgba(255, 255, 255, 0.2)),
+    color-stop(0.75, rgba(255, 255, 255, 0.2)),
+    color-stop(0.75, transparent),
+    to(transparent)
+  );
+  background-image: -moz-linear-gradient(
+    -45deg,
+    rgba(255, 255, 255, 0.2) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.2) 50%,
+    rgba(255, 255, 255, 0.2) 75%,
+    transparent 75%,
+    transparent
+  );
+  z-index: 1;
+  -webkit-background-size: 50px 50px;
+  -moz-background-size: 50px 50px;
+  background-size: 50px 50px;
+  -webkit-animation: move 2s linear infinite;
+  -moz-animation: move 2s linear infinite;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  color: #fff;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  text-align: right;
+}
+/* 定义动画 */
+@-webkit-keyframes move {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 50px 50px;
+  }
+}
+@-moz-keyframes move {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 50px 50px;
+  }
+}
