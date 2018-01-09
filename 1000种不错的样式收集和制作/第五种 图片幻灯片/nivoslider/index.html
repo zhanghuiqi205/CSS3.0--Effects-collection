@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>幻灯片效果</title>
+    <script src="./js/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="rsidebar span_1_of_left">
+        <div class="top-border"> </div>
+        <div class="border">
+            <link href="css/default.css" rel="stylesheet" type="text/css" media="all" />
+            <link href="css/nivo-slider.css" rel="stylesheet" type="text/css" media="all" />
+            <script src="js/jquery.nivo.slider.js"></script>
+            <script type="text/javascript">
+                $(window).load(function () {
+                    $('#slider').nivoSlider();
+                });
+            </script>
+            <div class="slider-wrapper theme-default" style="width:200px;height:200px">
+                <div id="slider" class="nivoSlider">
+                    <img src="images/t-img1.jpg" alt="" />
+                    <img src="images/t-img2.jpg" alt="" />
+                    <img src="images/t-img3.jpg" alt="" />
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
