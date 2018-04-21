@@ -1,0 +1,152 @@
+.userCard {
+    position: relative;
+    display: inline
+}
+
+.userCard .sanjiao {
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid rgba(0, 0, 0, .9);
+    margin: -23px 0 0 -10px;
+    left: 50%;
+    position: absolute
+}
+
+.userCard .card {
+    width: 200px;
+    position: absolute;
+    background-color: rgba(0, 0, 0, .9);
+    top: 30px;
+    left: 50%;
+    margin-left: -100px;
+    padding: 15px;
+    border-radius: 5px;
+    z-index: 1;
+    display: none;
+    font-weight: 400;
+}
+
+.userCard .card .user-img-card {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: block;
+    margin: 10px auto 20px
+}
+
+.userCard .card .card-name {
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+    text-align: center
+}
+
+.userCard .card .card-name .icon-renzhengkayou {
+    color: #ff6537
+}
+
+.userCard .card .card-job {
+    font-size: 12px;
+    color: #999;
+    text-align: center
+}
+
+.userCard .card .loading {
+    margin-top: 120px
+}
+
+.userCard .card .data {
+    margin-top: 10px
+}
+
+.userCard .card .data .data-left {
+    float: left;
+    color: #fff;
+    width: 85px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.userCard .card .data .data-right {
+    float: right;
+    color: #fff;
+    width: 85px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.userCard .card .data .num {
+    font-size: 16px
+}
+
+.userCard .card .btn-empty,
+.userCard .card .btn-green {
+    height: 34px;
+    line-height: 34px;
+    margin-top: 10px
+}
+
+.userCard:hover .card {
+    display: block
+}
+
+a,
+div {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    font-style: normal;
+    text-decoration: none;
+    border: none;
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-font-smoothing: antialiased;
+
+}
+
+.userCard .card .data {
+    margin-top: 10px;
+}
+
+userCard .card .btn-empty,
+.userCard .card .btn-green {
+    height: 34px;
+    line-height: 34px;
+    margin-top: 10px;
+}
+
+.clearfixnew:after {
+    content: " ";
+    font-size: 0;
+    display: block;
+    height: 0;
+    line-height: 0;
+    clear: both;
+}
+
+.btn-green {
+    color: #fff;
+    background-color: #82b64a;
+    border: 1px solid #82b64a;
+    height: 32px;
+    line-height: 32px;
+    border-radius: 2px;
+    padding: 0 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+a,
+a:active,
+a:hover,
+a:link,
+a:visited {
+    text-decoration: none;
+}
+
+a {
+    font-size: 12px;
+    color: #999;
+}
